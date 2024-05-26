@@ -26,14 +26,23 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             list-style: none; /* Remove default bullet points */
         }
 
-        .skill-list ul li {
-            color: red; /* Set the color of the initial list items to red */
-        }
 
         .skill-list ul li::before {
             content: "•"; /* Use a custom bullet point, like a solid circle */
-            color: green; /* Set the color of the bullet points to green */
+            color: #5eff00; /* Set the color to green */
+            display: inline-block;
+            width: 1em; /* Adjust size as needed */
+            margin-left: -1em; /* Adjust spacing as needed */
         }
+
+		.skill-list ul li li::before {
+            content: "•"; /* Use a custom bullet point, like a solid circle */
+            color: red; /* Set the color to green */
+            display: inline-block;
+            width: 1em; /* Adjust size as needed */
+            margin-left: -1em; /* Adjust spacing as needed */
+        }
+
 
 
 </style>
