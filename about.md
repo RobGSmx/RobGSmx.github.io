@@ -4,8 +4,10 @@ layout: page
 ---
 
 <style>
-    .profile-image {
+    img.profile-image {
         border-radius: 50%;
+        display: block;
+        margin: 0 auto; /* Optional: Centers the image */
     }
 </style>
 
