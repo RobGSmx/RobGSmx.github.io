@@ -26,6 +26,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             list-style: none; /* Remove default bullet points */
         }
 
+		.skill-list ul li {
+            color: red; /* Set the color of the initial list items to red */
+            position: relative; /* Ensure the ::before pseudo-element is positioned relative to the list item */
+        }
+
+
         .skill-list ul li::before {
             content: "•"; /* Use a custom bullet point, like a solid circle */
             color: #5eff00; /* Set the color to green */
