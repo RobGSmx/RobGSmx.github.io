@@ -29,10 +29,29 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>SAP ERP</li>
 	<li>Python:
         <ul>
-            <li>Data Visualization:
+            <li>Data:
+                <ul>
+                    <li>Fundamentals</li>
+                    <li>Pandas</li>
+					<li>NumPy</li>
+                </ul>
+            </li>
+			<li>Data Visualization:
                 <ul>
                     <li>Matplotlib</li>
                     <li>Seaborn</li>
+                </ul>
+            </li>
+			<li>Data Mining:
+                <ul>
+                    <li>Text Mining</li>
+                    <li>Data cleaning</li>
+                </ul>
+            </li>
+			<li>Database:
+                <ul>
+                    <li>Spark</li>
+                    <li>SQL</li>
                 </ul>
             </li>
         </ul>
@@ -50,7 +69,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <li>Google Locker</li>
         </ul>
     </li>
-</ul>
+
 
 <h2>Projects</h2>
 
