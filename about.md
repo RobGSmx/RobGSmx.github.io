@@ -39,6 +39,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         width: 1em; /* Adjust size as needed */
         margin-left: -1em; /* Adjust spacing as needed */
     }
+    .skill-list ul > li > ul > li > ul > li::before {
+        content: "•"; /* Use a custom bullet point, like a solid circle */
+        color: blue; /* Set the color to red */
+        display: inline-block;
+        width: 1em; /* Adjust size as needed */
+        margin-left: -1em; /* Adjust spacing as needed */
+    }
 </style>
 
 <section class="skill-list">
@@ -64,6 +71,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</li>
 		</li>
     </ul>
+</section>
 				<!-- <li>Data Visualization:
 					<ul>
 						<li>Matplotlib</li>
@@ -99,7 +107,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</ul>
 		</li>
 	</ul> -->
-</section>
+
 <h2>Projects</h2>
 
 <ul>
