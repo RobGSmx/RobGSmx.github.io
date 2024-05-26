@@ -28,7 +28,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         .skill-list ul li::before {
             content: "•"; /* Use a custom bullet point, like a solid circle */
-            color: green; /* Set the color to green */
+            color: #5eff00; /* Set the color to green */
             display: inline-block;
             width: 1em; /* Adjust size as needed */
             margin-left: -1em; /* Adjust spacing as needed */
