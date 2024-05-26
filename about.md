@@ -73,7 +73,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</li>
     </ul>
 </section>
-				<!-- <li>Data Visualization:
+<!-- 				<li>Data Visualization:
 					<ul>
 						<li>Matplotlib</li>
 						<li>Seaborn</li>
