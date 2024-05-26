@@ -22,27 +22,26 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Skills</h2>
 
 <style>
-        .skill-list ul {
-            list-style: none; /* Remove default bullet points */
-        }
+    .skill-list ul {
+        list-style: none; /* Remove default bullet points */
+    }
 
+    .skill-list ul > li::before {
+        content: "•"; /* Use a custom bullet point, like a solid circle */
+        color: #5eff00; /* Set the color to green */
+        display: inline-block;
+        width: 1em; /* Adjust size as needed */
+        margin-left: -1em; /* Adjust spacing as needed */
+    }
 
-        .skill-list ul li::before {
-            content: "•"; /* Use a custom bullet point, like a solid circle */
-            color: #5eff00; /* Set the color to green */
-            display: inline-block;
-            width: 1em; /* Adjust size as needed */
-            margin-left: -1em; /* Adjust spacing as needed */
-        }
-
-		.skill-list ul li li::before {
-            content: "•"; /* Use a custom bullet point, like a solid circle */
-            color: red; /* Set the color to green */
-            display: inline-block;
-            width: 1em; /* Adjust size as needed */
-            margin-left: -1em; /* Adjust spacing as needed */
-        }
-
+    .skill-list ul ul > li::before {
+        content: "•"; /* Use a custom bullet point, like a solid circle */
+        color: red; /* Set the color to red */
+        display: inline-block;
+        width: 1em; /* Adjust size as needed */
+        margin-left: -1em; /* Adjust spacing as needed */
+    }
+</style>
 
 
 </style>
