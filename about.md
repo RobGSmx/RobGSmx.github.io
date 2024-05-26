@@ -70,6 +70,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</li>
 		</li>
 		</li>
+		</li>
     </ul>
 </section>
 				<!-- <li>Data Visualization:
