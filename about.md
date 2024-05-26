@@ -33,6 +33,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             width: 1em; /* Adjust size as needed */
             margin-left: -1em; /* Adjust spacing as needed */
         }
+
+        .skill-list li {
+            color: red; /* Set the color of the initial list items to red */
+        }
+
 </style>
 
 <ul class="skill-list">
