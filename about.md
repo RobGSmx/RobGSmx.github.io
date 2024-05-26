@@ -34,7 +34,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         margin-left: -1em; /* Adjust spacing as needed */
     }
 
-    .skill-list ul ul > li::before {
+    .skill-list ul > li > ul > li::before {
         content: "•"; /* Use a custom bullet point, like a solid circle */
         color: red; /* Set the color to red */
         display: inline-block;
@@ -94,7 +94,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <li>Google Locker</li>
         </ul>
     </li>
-
+</ul>
 
 <h2>Projects</h2>
 
