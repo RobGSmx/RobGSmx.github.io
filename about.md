@@ -2,6 +2,13 @@
 title: About
 layout: page
 ---
+
+<style>
+    .profile-image {
+        border-radius: 50%;
+    }
+</style>
+
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
