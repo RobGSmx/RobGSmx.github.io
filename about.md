@@ -41,57 +41,65 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     }
 </style>
 
-<ul class="skill-list">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Git</li>
-    <li>Excel/Google Sheets</li>
-    <li>SAP ERP</li>
-    <li>Python:
-        <ul>
-            <li>Data:
-                <ul>
-                    <li>Fundamentals</li>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                </ul>
-            </li>
-            <li>Data Visualization:
-                <ul>
-                    <li>Matplotlib</li>
-                    <li>Seaborn</li>
-                </ul>
-            </li>
-            <li>Data Mining:
-                <ul>
-                    <li>Text Mining</li>
-                    <li>Data cleaning</li>
-                </ul>
-            </li>
-            <li>Database:
-                <ul>
-                    <li>Spark</li>
-                    <li>SQL</li>
-                </ul>
-            </li>
-        </ul>
-    </li> <!-- Missing closing </li> added here -->
-    <li>SQL, Non SQL:
-        <ul>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Snowflake</li>
-        </ul>
-    </li>
-    <li>BI Software:
-        <ul>
-            <li>Power BI</li>
-            <li>MicroStrategy</li>
-            <li>Google Locker</li>
-        </ul>
-    </li>
-</ul>
-
+<section class="skill-list">
+	<ul>
+		<li>HTML
+		<li>CSS
+		<li>Git
+		<li>Excel/Google Sheets
+		<li>SAP ERP
+		<li>Python:
+			<ul>
+				<li>Data:
+					<ul>
+						<li>Fundamentals</li>
+						<li>Pandas</li>
+						<li>NumPy</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		</li>
+		</li>
+		</li>
+		</li>
+    </ul>
+				<!-- <li>Data Visualization:
+					<ul>
+						<li>Matplotlib</li>
+						<li>Seaborn</li>
+					</ul>
+				</li>
+				<li>Data Mining:
+					<ul>
+						<li>Text Mining</li>
+						<li>Data cleaning</li>
+					</ul>
+				</li>
+				<li>Database:
+					<ul>
+						<li>Spark</li>
+						<li>SQL</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>SQL, Non SQL:
+			<ul>
+				<li>MySQL</li>
+				<li>MongoDB</li>
+				<li>Snowflake</li>
+			</ul>
+		</li>
+		<li>BI Software:
+			<ul>
+				<li>Power BI</li>
+				<li>MicroStrategy</li>
+				<li>Google Locker</li>
+			</ul>
+		</li>
+	</ul> -->
+</section>
 <h2>Projects</h2>
 
 <ul>
