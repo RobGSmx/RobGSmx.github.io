@@ -4,9 +4,7 @@ layout: page
 ---
 
 <!-- This code directly applies the border-radius, display, and margin styles inline to the image tag. -->
-
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}){: style="border-radius: 50%; display: block; margin: 0 auto;"}
-
 
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
 
@@ -26,15 +24,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         list-style: none; /* Remove default bullet points */
     }
 
-    .skill-list > li::before {
-        content: "•"; /* Use a custom bullet point, like a solid circle */
-        color: pink; /* Set the color to green */
-        display: inline-block;
-        width: 1em; /* Adjust size as needed */
-        margin-left: -1em; /* Adjust spacing as needed */
-    }	
-
-
     .skill-list ul > li::before {
         content: "•"; /* Use a custom bullet point, like a solid circle */
         color: #5eff00; /* Set the color to green */
@@ -52,42 +41,42 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     }
 </style>
 
-
 <ul class="skill-list">
-	<li>HTML</li>
-	<li>CSS</li>
-	<li>Git</li>
-	<li>Excel/Google Sheets</li>
-	<li>SAP ERP</li>
-	<li>Python:
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Git</li>
+    <li>Excel/Google Sheets</li>
+    <li>SAP ERP</li>
+    <li>Python:
         <ul>
             <li>Data:
                 <ul>
                     <li>Fundamentals</li>
                     <li>Pandas</li>
-					<li>NumPy</li>
+                    <li>NumPy</li>
                 </ul>
             </li>
-			<li>Data Visualization:
+            <li>Data Visualization:
                 <ul>
                     <li>Matplotlib</li>
                     <li>Seaborn</li>
                 </ul>
             </li>
-			<li>Data Mining:
+            <li>Data Mining:
                 <ul>
                     <li>Text Mining</li>
                     <li>Data cleaning</li>
                 </ul>
             </li>
-			<li>Database:
+            <li>Database:
                 <ul>
                     <li>Spark</li>
                     <li>SQL</li>
                 </ul>
             </li>
         </ul>
-	<li>SQL, Non SQL:
+    </li> <!-- Missing closing </li> added here -->
+    <li>SQL, Non SQL:
         <ul>
             <li>MySQL</li>
             <li>MongoDB</li>
@@ -106,7 +95,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+    <li><a href="https://github.com/">Lorem Lorem</a></li>
+    <li><a href="https://github.com/">Ipsum Dolor</a></li>
+    <li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
