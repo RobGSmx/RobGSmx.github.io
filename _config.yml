@@ -3,7 +3,7 @@ title: Roberto García Santín
 bio: Data Analyst | B.Mechatronics.Engineer. | M.Banking and Financial Markets | Guitarist
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Data Analyst porfolio and resume
 
 # if it's an external image, update below for true
 # better with square images
@@ -12,7 +12,7 @@ picture: assets/images/profile.png
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: yes
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -39,18 +39,11 @@ github: RobGSmx
 email: roguitarcoder@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  robgs:
+    name: Roberto GS
+    bio: Mecatronics engineer doing Data stuff
     external-image: false
     picture: assets/images/profile.png
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -62,7 +55,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
