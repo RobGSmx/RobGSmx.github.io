@@ -26,6 +26,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         list-style: none; /* Remove default bullet points */
     }
 
+    .skill-list > li::before {
+        content: "•"; /* Use a custom bullet point, like a solid circle */
+        color: pink; /* Set the color to green */
+        display: inline-block;
+        width: 1em; /* Adjust size as needed */
+        margin-left: -1em; /* Adjust spacing as needed */
+    }	
+
+
     .skill-list ul > li::before {
         content: "•"; /* Use a custom bullet point, like a solid circle */
         color: #5eff00; /* Set the color to green */
@@ -43,8 +52,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     }
 </style>
 
-
-</style>
 
 <ul class="skill-list">
 	<li>HTML</li>
