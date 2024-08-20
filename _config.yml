@@ -18,7 +18,7 @@ dark-theme: yes
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://drive.google.com/file/d/13ckc2w5n0jdWuWX8pc1ZX8A2yuV-0YA5/view?usp=drive_link
 
 url: https://github.com/RobGSmx/RobGSmx.github.io
 # your url: https://USERNAME.github.io
