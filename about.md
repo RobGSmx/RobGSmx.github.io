@@ -28,7 +28,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         content: "•"; /* Use a custom bullet point, like a solid circle */
         color: #5eff00; /* Set the color to green */
         display: inline-block;
-        width: 1em; /* Adjust size as needed */
+        width: 1em; /* Adjust size as needed */+
         margin-left: -1em; /* Adjust spacing as needed */
     }
 
@@ -109,10 +109,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</li>
 	</ul> -->
 
-<h2>Projects</h2>
+<!-- <h2>Projects</h2>
 
 <ul>
     <li><a href="https://github.com/">Lorem Lorem</a></li>
     <li><a href="https://github.com/">Ipsum Dolor</a></li>
     <li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+</ul> -->
