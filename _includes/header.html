@@ -25,7 +25,7 @@
 
 {% include nav.html %} -->
 
-{% if page.title == "About" %}
+{% if page.title == "About" or page.title == "Home" %}
     <header class="header-about {% if site.animation %}animated{% endif %}">
         <a class="link" href="{{ site.url }}/about">
             <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
