@@ -11,7 +11,7 @@
 
 
 
-{% if showHeader == true %}
+<!-- {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
@@ -28,7 +28,21 @@
 
         {% include social-links.html %}
     </header>
+{% endif %} -->
+
+{% if showHeader == true %}
+    <header class="header-home {% if site.animation %}animated{% endif %}">
+        <a class="link" href="{{ site.url }}/about">
+            <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+        </a>
+
+        <h1 class="title">{{ site.name }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
+
+        {% include social-links.html %}
+    </header>
 {% endif %}
+
 
 <!-- added: new minimal header-->
 {% if showMinHeader == true %}
