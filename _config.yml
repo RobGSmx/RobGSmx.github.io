@@ -90,6 +90,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-jupyter-notebook
 
 compress_html:
   ignore:
@@ -105,3 +106,5 @@ exclude:
     "FAQ.md",
     "vendor",
   ]
+
+
