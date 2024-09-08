@@ -2,6 +2,7 @@
 title: "TEST JUPYTER"
 layout: post
 date: 2024-09-08 12:00
+image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
 description: "test"
