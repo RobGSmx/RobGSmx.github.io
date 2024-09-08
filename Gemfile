@@ -6,7 +6,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll-seo-tag'
     gem 'jemoji'
-    gem "jekyll-jupyter-notebook", path: ".."
+    gem "jekyll-jupyter-notebook"
 end
 
 gem "webrick"
