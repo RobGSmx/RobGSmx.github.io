@@ -107,8 +107,3 @@ exclude:
     "vendor",
   ]
 
-markdown: kramdown
-collections:
-  members:
-    output: true
-    permalink: /members/:path:output_ext
