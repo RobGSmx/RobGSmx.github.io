@@ -31,16 +31,32 @@
     margin-top: 40px
     text-align: center
 
-    > .list
+    // > .list
+    //     padding: 0
+
+    //     > .item > .link
+    //         font-size: 2rem
+    //         padding: 7px 15px
+    //         margin: 0
+    //         border-radius: 4%
+    //         transition: all .4s ease-in-out
+    //         width: 70px
+
+    //         &:hover
+    //             color: $alpha
+
+        > .list
         padding: 0
+        display: flex // Add flexbox for better distribution
+        justify-content: center // Center the items
 
         > .item > .link
             font-size: 2rem
             padding: 7px 15px
-            margin: 0
+            margin: 0 10px // Space between items
             border-radius: 4%
             transition: all .4s ease-in-out
-            width: 70px
-
+            white-space: nowrap // Prevent the text from breaking
+            // Remove fixed width
             &:hover
                 color: $alpha
