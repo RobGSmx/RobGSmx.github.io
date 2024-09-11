@@ -51,12 +51,12 @@
         justify-content: center // Center the items
 
         > .item > .link
-            font-size: 2rem
+            font-size: 2.2rem // Adjust to 2.2rem if needed
             padding: 7px 15px
-            margin: 0 10px // Space between items
+            margin: 0 10px
             border-radius: 4%
             transition: all .4s ease-in-out
-            white-space: nowrap // Prevent the text from breaking
-            // Remove fixed width
+            white-space: nowrap
+            flex-shrink: 0 // Prevent shrinking
             &:hover
                 color: $alpha
