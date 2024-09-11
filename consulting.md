@@ -1,6 +1,8 @@
 ---
 title: About
 layout: page
+permalink: /consulting/index.html
+
 ---
 
 <!-- This code directly applies the border-radius, display, and margin styles inline to the image tag. -->
